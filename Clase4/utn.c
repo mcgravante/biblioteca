@@ -47,7 +47,7 @@ int utn_getArrayInt (   int *pArrayResultados,
     int ret=0;
     for (i=0; i<limite;i++){
         ret=utn_getNumber(&buffer, maximo,minimo, reintentos, mensaje, mensajeError);
-        if (ret){
+        if (ret==-1){
             break;
         }
         pArrayResultados[i]=buffer;
