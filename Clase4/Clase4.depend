@@ -25,10 +25,18 @@
 	<stdio.h>
 	<stdlib.h>
 
-1554421850 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/main.c
+1554945006 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/main.c
 	<stdio.h>
+	<string.h>
 	<stdlib.h>
-	"utn.h"
+	"bibliotecautn.h"
 
 1554423051 /home/alumno/gravante/biblioteca/biblioteca/Clase4/utn.h
+
+1554945119 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/bibliotecautn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1554942896 /home/alumno/gravante/biblioteca/biblioteca/Clase4/bibliotecautn.h
 

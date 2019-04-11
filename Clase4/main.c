@@ -1,11 +1,19 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
-#include "utn.h"
+#include "bibliotecautn.h"
 #define TAM_ARRAY 10
 
 int main()
 {
-    int i;
+int number;
+if (!getNumber(&number, "Ingrese numero: \n", "Intente nuevamente", -5, 9999, 3))
+
+{return -1;};
+return 0;
+
+
+    /*int i;
     int array[TAM_ARRAY];
     utn_getArrayInt(array,TAM_ARRAY,"Ingrese numeros","Error",99,1,3);
     printf("Array: \n");
@@ -31,5 +39,8 @@ int main()
     printf("Minimo: %d\n",minimo);
 
     utn_encontrarNumero(array, TAM_ARRAY, 99, 1, 3, "Ingrese numero a encontrar en el array", "Error");
-    return 0;
+    return 0;*/
+
 }
+
+
