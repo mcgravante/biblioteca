@@ -21,22 +21,23 @@
 	<stdio.h>
 	<stdlib.h>
 
-1554423270 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/utn.c
+1555020889 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/utn.c
 	<stdio.h>
 	<stdlib.h>
 
-1554945006 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/main.c
+1555031807 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/main.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
 	"bibliotecautn.h"
+	"utn.h"
 
 1554423051 /home/alumno/gravante/biblioteca/biblioteca/Clase4/utn.h
 
-1554945119 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/bibliotecautn.c
+1555030817 source:/home/alumno/gravante/biblioteca/biblioteca/Clase4/bibliotecautn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1554942896 /home/alumno/gravante/biblioteca/biblioteca/Clase4/bibliotecautn.h
+1555030868 /home/alumno/gravante/biblioteca/biblioteca/Clase4/bibliotecautn.h
 

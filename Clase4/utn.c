@@ -160,3 +160,5 @@ int utn_encontrarNumero (   int *pArrayInt,
     printf("No se encontró el número %d", numeroABuscar);
     return -1;
 }
+
+

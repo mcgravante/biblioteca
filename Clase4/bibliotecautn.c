@@ -25,7 +25,7 @@ int getString(  char *pResultado,
             bufferStrLength<=maximo)
         {
             retorno = 0;
-            pResultado = bufferStr;
+            strncpy(pResultado, bufferStr, 4096);
             break;
         } else
         {
@@ -80,9 +80,53 @@ int getNumber(  int *resultado,
             {
                 retorno = 0;
                 *resultado = bufferInt;
+            }else
+            {
+                printf(msgError);
             }
+        }else
+        {
+            printf(msgError);
         }
     }
     //printf("%d",*resultado);
     return retorno;
 }
+
+int buscarLugarLibre (  char array[][20],
+                        int *pIndex,
+                        int len)
+{
+    int i;
+    int retorno=-1;
+    for(i=0;i<len;i++)
+    {
+        if(array[i][0]=='\0')
+        {
+            *pIndex=i;
+            retorno = 0;
+            break;
+        }
+    }
+    return retorno;
+}
+
+int buscarNombre (  char *pNombre,
+                    char array[][20],
+                    int len,
+                    int *pIndex)
+{
+    int i;
+    int retorno=-1;
+    for(i=0;i<len;i++)
+    {
+        if(strcmp(pNombre, array[i])==0)
+        {
+            *pIndex=i;
+            retorno = 0;
+            break;
+        }
+    }
+    return retorno;
+}
+

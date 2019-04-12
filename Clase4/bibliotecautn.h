@@ -17,4 +17,13 @@ int getNumber(  int *resultado,
 
 int isValidNumber (char* cadena);
 
+int buscarLugarLibre (  char array[][20],
+                        int *pIndex,
+                        int len);
+
+int buscarNombre (  char *pNombre,
+                    char array[][20],
+                    int len,
+                    int *pIndex);
+
 #endif // BIBLIOTECAUTN_H_INCLUDED
