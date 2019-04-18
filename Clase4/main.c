@@ -3,13 +3,29 @@
 #include <stdlib.h>
 #include "bibliotecautn.h"
 #include "utn.h"
+#include "empleado.h"
+
 
 #define TAM_ARRAY 10
 #define LEN_LISTA 100
-#define LEN_LISTA_NOMBRE 20
+#define LEN_LISTA_EMPLEADOS 200
+#define LEN_LISTA_NOMBRE 50
+
+
+/*typedef struct
+{
+    int idEmpleado;
+    int isEmpty;
+    char nombre[LEN_LISTA_NOMBRE];
+    char apellido[LEN_LISTA_NOMBRE];
+}Empleado;*/
 
 int main()
 {
+
+
+
+}
 /*int number;
 if (!getNumber(&number, "Ingrese numero: \n", "Intente nuevamente", -5, 9999, 3))
 
@@ -45,13 +61,13 @@ return 0;*/
     utn_encontrarNumero(array, TAM_ARRAY, 99, 1, 3, "Ingrese numero a encontrar en el array", "Error");
     return 0;*/
 
-    char nombres [LEN_LISTA][LEN_LISTA_NOMBRE];
+    //char nombres [LEN_LISTA][LEN_LISTA_NOMBRE];
 
     /*strncpy(nombres[0], "toto", 20);
 
     printf("nombre: %s \n", nombres[0]);*/
 
-    int i;
+    /*int i;
     //inicializacion
     int posLibre;
     int posEliminar;
@@ -126,8 +142,8 @@ return 0;*/
     }
 
     return 0;
+*/
 
-}
 
 
 

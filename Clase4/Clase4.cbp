@@ -36,6 +36,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="bibliotecautn.h" />
+		<Unit filename="empleado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="empleado.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

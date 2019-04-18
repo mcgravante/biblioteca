@@ -25,7 +25,7 @@ int getString(  char *pResultado,
             bufferStrLength<=maximo)
         {
             retorno = 0;
-            strncpy(pResultado, bufferStr, 4096);
+            strncpy(pResultado, bufferStr, sizeof(pResultado));
             break;
         } else
         {
